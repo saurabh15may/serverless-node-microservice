@@ -1,0 +1,23 @@
+{
+  "name": "serverless-node-api",
+  "version": "1.0.0",
+  "description": "REST API using node.js and Serverless",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saurabh15may/serverless-node-api.git"
+  },
+  "author": "Saurabh Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saurabh15may/serverless-node-api/issues"
+  },
+  "homepage": "https://github.com/saurabh15may/serverless-node-api#readme",
+  "dependencies": {
+    "aws-sdk": "^2.133.0",
+    "uuid": "^3.1.0"
+  }
+}
