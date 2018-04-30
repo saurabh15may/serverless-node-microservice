@@ -30,11 +30,11 @@ stack: serverless-node-api-dev
 api keys:
   None
 endpoints:
-  POST - https://vq867mstbj.execute-api.us-east-1.amazonaws.com/dev/employees/create
-  GET - https://vq867mstbj.execute-api.us-east-1.amazonaws.com/dev/employees
-  GET - https://vq867mstbj.execute-api.us-east-1.amazonaws.com/dev/employees/{id}
-  PUT - https://vq867mstbj.execute-api.us-east-1.amazonaws.com/dev/employees/{id}/update
-  DELETE - https://vq867mstbj.execute-api.us-east-1.amazonaws.com/dev/employees/{id}/delete
+  POST - https://XXXX.execute-api.us-east-1.amazonaws.com/dev/employees/create
+  GET - https://XXXX.execute-api.us-east-1.amazonaws.com/dev/employees
+  GET - https://XXXX.execute-api.us-east-1.amazonaws.com/dev/employees/{id}
+  PUT - https://XXXX.execute-api.us-east-1.amazonaws.com/dev/employees/{id}/update
+  DELETE - https://XXXX.execute-api.us-east-1.amazonaws.com/dev/employees/{id}/delete
 functions:
   create: serverless-node-api-dev-create
   list: serverless-node-api-dev-list
